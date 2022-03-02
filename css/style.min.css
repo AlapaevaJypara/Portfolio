@@ -1,1 +1,107 @@
-:root{--accent: #8159b6;--accent-light: #3764a7;--pure-white: #ffff}html{-webkit-box-sizing:border-box;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit}body{margin:0;font-family:"Open Sans",sans-serif;color:var(--accent)}.container{width:1140px;margin:0 auto;padding:0 15px}.header{background-color:var(--accent, #174180)}.header a{color:var(--pure-white, #ffff);text-decoration:none}.header nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:15px 0}.header-logo{display:inline-block;width:20%;font-size:20px;font-weight:800;letter-spacing:1px}.header-menu{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0;list-style:none}.header-menu-item{float:right}.header-menu-link{padding:15px 15px;text-transform:uppercase}.header-menu-link:hover{background-color:var(--accent-light)}
+:root {
+  --accent: #8159b6;
+  --accent-light: #3764a7;
+  --pure-white: #ffff;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "OS Condensed";
+  src: url("/fonts/OpenSans_Condensed-Bold.woff2") format("woff2"), url("/fonts/OpenSansCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "OS Condensed";
+  src: url("/fonts/OpenSans_Condensed-ExtraBold.woff2") format("woff2"), url("/fonts/OpenSansCondensed-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  font-family: "OS Condensed";
+  src: url("/fonts/OpenSans_Condensed-Light.woff2") format("woff2"), url("/fonts/OpenSansCondensed-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OS Condensed";
+  src: url("/fonts/OpenSans_Condensed-Regular.woff2") format("woff2"), url("/fonts/OpenSansCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "OS Condensed", sans-serif;
+  color: var(--accent);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /*border: 1px solid black;*/
+}
+
+.header {
+  background-color: var(--accent, #174180);
+}
+
+.header a {
+  color: var(--pure-white, #ffff);
+  text-decoration: none;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+.header-logo {
+  display: inline-block;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu-item {
+  float: right;
+}
+
+.header-menu-link {
+  padding: 15px 15px;
+  text-transform: uppercase;
+}
+
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+}

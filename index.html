@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -38,11 +33,11 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="main">
       <img src="img/myphoto.jpg" width="250" alt="my photo" />
       <section id="about">
-        <h1 class="">Жыпара Алапаева</h1>
-        <h2>О себе</h2>
+        <h1 class="main__title">Жыпара Алапаева</h1>
+        <h2 class="main__subtitle">О себе</h2>
         <p>
           Моя любимая профессия — программист, я приложу все силы, чтобы её
           успешно освоить. Способность к написанию программ напрямую зависит от
@@ -56,15 +51,15 @@
       <section id="contacts">
         <h3 class="contacts-item">Контакты</h3>
         <ul class="menu">
-          <li>
+          <li class="menu__item">
             <h4>Локация</h4>
             <p>Кыргызстан.г.Бишкек</p>
           </li>
-          <li>
+          <li class="menu__item">
             <h4>Телефон</h4>
             <a href="tel:+996702818451">0702 80 84 51</a>
-          </li>
-          <li>
+          </li class="menu__item">
+          <li class="menu__item">
             <h4>Электронная почта</h4>
             <a href="mailto:jypara.alapaeva.kk@gmail.com"
               >jypara.alapaeva.kk@gmail.com</a
@@ -75,28 +70,46 @@
       <hr />
       <section id="education">
         <h3 class="education">Образование</h3>
-
-        Балыкчинский Социально-Экономический институт.Факультет:Бух.учет и
-        аудит.
+        <ul class="menu">
+          <li class="menu__item">
+            Балыкчинский Социально-Экономический
+            институт.Факультет:Экономический.Специальность:Бух.учет и аудит.
+          </li>
+        </ul>
+        <h3 class="courses">Курсы</h3>
+        <ul class="menu">
+          <li>
+            Учебный центр "Универсал". Курс:"Информационные технологии в
+            бухгалтерском учете 1С:Бухгалтерия"
+          </li>
+          <li class="menu__item">
+            ОсОО "Инфо-Так Эсеп".Курс:"Инфо-Бкхгалтер" () учет в бюджетных
+            организациях
+          </li>
+          <li class="menu__item">JyldyzAcademy. Front-end developer</li>
+        </ul>
       </section>
       <hr />
       <section id="skills">
         <h3 class="skills">Навыки</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git,CitHub</li>
-          <li>WordPress</li>
-          <li>Figma,Canva,CorelDraw</li>
+        <ul class="menu">
+          <li class="menu__item">HTML</li>
+          <li class="menu__item">CSS</li>
+          <li class="menu__item">Git,CitHub</li>
+          <li class="menu__item">WordPress</li>
+          <li class="menu__item">Figma,Canva,CorelDraw</li>
+          <li class="menu__item">
+            <a class="menu__link" href="https://www.notion.so/jypara-alapaeva-kk-gmail-com-6f9eee5d690f4645b9954cbfdc6d7293"><strong>Notion</strong></a>
+          </li>
         </ul>
       </section>
       <hr />
       <section id="languages">
         <h3 class="lang">Языки</h3>
-        <ol>
-          <li>Английский язык-начинающий</li>
-          <li>Русский язык-свободно</li>
-          <li>Кыргызский язык-родной</li>
+        <ol class="menu">
+          <li class="menu__item">Английский язык-начинающий</li>
+          <li class="menu__item">Русский язык-свободно</li>
+          <li class="menu__item">Кыргызский язык-родной</li>
         </ol>
       </section>
       <hr />
