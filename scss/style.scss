@@ -1,6 +1,6 @@
 :root {
   --accent: #8159b6;
-  --accent-light: #3764a7;
+  --accent-light: #b299d3;
   --pure-white: #ffff;
 }
 html {
@@ -53,8 +53,15 @@ body {
   padding: 0 15px;
   /*border: 1px solid black;*/
 }
+.section {
+  padding: 60px 0;
+}
+.section__title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
-  background-color: var(--accent, #174180);
+  background-color: var(--accent);
 }
 .header a {
   color: var(--pure-white, #ffff);
@@ -89,4 +96,113 @@ body {
 }
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+.main {
+  background-color: rgb(193, 223, 236);
+}
+.intro {
+  padding: 60px 0;
+}
+.intro__inner {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.intro__left {
+  width: 30%;
+}
+.intro__img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.intro__right {
+  width: 60%;
+}
+.intro__right h1,
+.intro__right h3 {
+  margin: 0 0 15px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.skills {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.code__example {
+  text-align: center;
+}
+.code__example pre {
+  width: 50%;
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: 8px;
+}
+pre {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.education {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.education__left {
+  width: 60%;
+  text-align: left;
+}
+.education__right {
+  width: 30%;
+}
+.education__inner {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+footer {
+  color: var(--pure-white);
+  background-color: var(--accent);
+  margin: 0;
+  padding: 15 px 0;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.footer__link {
+  color: var(--pure-white);
 }

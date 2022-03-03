@@ -34,111 +34,147 @@
       </div>
     </header>
     <main class="main">
-      <img src="img/myphoto.jpg" width="250" alt="my photo" />
-      <section id="about">
-        <h1 class="main__title">Жыпара Алапаева</h1>
-        <h2 class="main__subtitle">О себе</h2>
-        <p>
-          Моя любимая профессия — программист, я приложу все силы, чтобы её
-          успешно освоить. Способность к написанию программ напрямую зависит от
-          личного характера.Важнейшие качества программиста — скромность,
-          любопытство, профессиональная честность, творчество и дисциплина.
-          Чтобы стать отличным программистом, я постоянно стремлюсь к
-          самосовершенствованию.
-        </p>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__left">
+              <img
+                class="intro__img"
+                src="img/myphoto.jpg"
+                width="250"
+                alt="my photo"
+              />
+            </div>
+            <div class="intro__right">
+              <h1>Жыпара Алапаева</h1>
+              <h3>О себе</h3>
+              <p>
+                Моя любимая профессия — программист, я приложу все силы, чтобы
+                её успешно освоить. Способность к написанию программ напрямую
+                зависит от личного характера.Важнейшие качества программиста —
+                скромность, любопытство, профессиональная честность, творчество
+                и дисциплина. Чтобы стать отличным программистом, я постоянно
+                стремлюсь к самосовершенствованию.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <hr />
-      <section id="contacts">
-        <h3 class="contacts-item">Контакты</h3>
-        <ul class="menu">
-          <li class="menu__item">
-            <h4>Локация</h4>
-            <p>Кыргызстан.г.Бишкек</p>
-          </li>
-          <li class="menu__item">
-            <h4>Телефон</h4>
-            <a href="tel:+996702818451">0702 80 84 51</a>
-          </li class="menu__item">
-          <li class="menu__item">
-            <h4>Электронная почта</h4>
-            <a href="mailto:jypara.alapaeva.kk@gmail.com"
-              >jypara.alapaeva.kk@gmail.com</a
-            >
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <section id="education">
-        <h3 class="education">Образование</h3>
-        <ul class="menu">
-          <li class="menu__item">
-            Балыкчинский Социально-Экономический
-            институт.Факультет:Экономический.Специальность:Бух.учет и аудит.
-          </li>
-        </ul>
-        <h3 class="courses">Курсы</h3>
-        <ul class="menu">
-          <li>
-            Учебный центр "Универсал". Курс:"Информационные технологии в
-            бухгалтерском учете 1С:Бухгалтерия"
-          </li>
-          <li class="menu__item">
-            ОсОО "Инфо-Так Эсеп".Курс:"Инфо-Бкхгалтер" () учет в бюджетных
-            организациях
-          </li>
-          <li class="menu__item">JyldyzAcademy. Front-end developer</li>
-        </ul>
-      </section>
-      <hr />
-      <section id="skills">
-        <h3 class="skills">Навыки</h3>
-        <ul class="menu">
-          <li class="menu__item">HTML</li>
-          <li class="menu__item">CSS</li>
-          <li class="menu__item">Git,CitHub</li>
-          <li class="menu__item">WordPress</li>
-          <li class="menu__item">Figma,Canva,CorelDraw</li>
-          <li class="menu__item">
-            <a class="menu__link" href="https://www.notion.so/jypara-alapaeva-kk-gmail-com-6f9eee5d690f4645b9954cbfdc6d7293"><strong>Notion</strong></a>
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <section id="languages">
-        <h3 class="lang">Языки</h3>
-        <ol class="menu">
-          <li class="menu__item">Английский язык-начинающий</li>
-          <li class="menu__item">Русский язык-свободно</li>
-          <li class="menu__item">Кыргызский язык-родной</li>
-        </ol>
-      </section>
-      <hr />
-      <section id="code">
-        <h3 class="example">Примеры кода</h3>
-        <pre>
-          <code>
-            &lt;section&gt;
-             &lt;h3&gt;Навыки&lt;/h3&gt;
-              &lt;ul&gt;
-                 &lt;li&gt;CSS&lt;/li&gt;
-                 &lt;li&gt;Git,CitHub&lt;/li&gt;
-                 &lt;li&gt;WordPress&lt;/li&gt;
-                 &lt;li&gt;Figma,Canva,CorelDraw&lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/section&gt;
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <h2 id="contact" class="section__title">Контакты</h2>
 
-          </code>
-        </pre>
+            <ul class="menu">
+              <li class="menu__item">
+                <h4>Локация</h4>
+                <p>Кыргызстан.г.Бишкек</p>
+              </li>
+              <li class="menu__item">
+                <h4>Телефон</h4>
+                <a href="tel:+996702818451">0702 80 84 51</a>
+              </li>
+              <li class="menu__item">
+                <h4>Электронная почта</h4>
+                <a href="mailto:jypara.alapaeva.kk@gmail.com"
+                  >jypara.alapaeva.kk@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="skills" class="skills section">
+        <div class="container">
+          <h3 class="section__title">Навыки</h3>
+          <ul class="menu">
+            <li class="menu__item">HTML</li>
+            <li class="menu__item">CSS</li>
+            <li class="menu__item">Git,CitHub</li>
+            <li class="menu__item">WordPress</li>
+            <li class="menu__item">Figma,Canva,CorelDraw</li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <section id="#code" class="code__example section">
+        <div class="container">
+          <h2 class="section__title">Примеры кода</h2>
+          <pre>
+            <code>
+              &lt;section&gt;
+               &lt;h3&gt;Навыки&lt;/h3&gt;
+                &lt;ul&gt;
+                   &lt;li&gt;CSS&lt;/li&gt;
+                   &lt;li&gt;Git,CitHub&lt;/li&gt;
+                   &lt;li&gt;WordPress&lt;/li&gt;
+                   &lt;li&gt;Figma,Canva,CorelDraw&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/section&gt;
+  
+            </code>
+          </pre>
+        </div>
+      </section>
+
+      <section id="education" class="education section">
+        <div class="container">
+          <h3 class="section__title">Образование</h3>
+          <ul class="menu">
+            <li class="menu__item">
+              Балыкчинский Социально-Экономический
+              институт.Факультет:Экономический.Специальность:Бух.учет и аудит.
+            </li>
+          </ul>
+          <div class="education__inner">
+            <div class="education__left">
+              <h3 class="section__title">Курсы</h3>
+              <ul class="menu">
+                <li>
+                  Учебный центр "Универсал". Курс:"Информационные технологии в
+                  бухгалтерском учете 1С:Бухгалтерия"
+                </li>
+                <li class="menu__item">
+                  ОсОО "Инфо-Так Эсеп". Курс:"Инфо-Бухгалтер" (учет в бюджетных
+                  организациях)
+                </li>
+                <li class="menu__item">JyldyzAcademy. Front-end developer</li>
+              </ul>
+            </div>
+            <div class="education__rihgt">
+              <h3 id="#languages" class="section__title">Языки</h3>
+              <ol class="menu">
+                <li class="menu__item">Английский язык-начинающий</li>
+                <li class="menu__item">Русский язык-свободно</li>
+                <li class="menu__item">Кыргызский язык-родной</li>
+              </ol>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <hr />
+
     <footer class="footer">
-      <p>
-        &copy;Jypara Alapaeva 2022г.
-        <a class="footer-link" href="https://linktr.ee/jyldyzacademy2020"
-          >JyldyzAcademy</a
-        >
-      </p>
+      <section class="footer__inner">
+        <div class="container">
+          <p>
+            &copy;Jypara Alapaeva 2022г.
+            <br />
+            <a class="footer__link" href="https://linktr.ee/jyldyzacademy2020"
+              >JyldyzAcademy</a
+            >
+          </p>
+          <li>
+            <a
+              class="footer__link"
+              href="https://www.notion.so/jypara-alapaeva-kk-gmail-com-6f9eee5d690f4645b9954cbfdc6d7293"
+              ><strong>Notion</strong></a
+            >
+          </li>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
