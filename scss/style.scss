@@ -1,6 +1,6 @@
 :root {
   --accent: #8159b6;
-  --accent-light: #f1edf5;
+  --accent-light: #b7a5c9;
   --pure-white: #ffff;
 }
 html {
@@ -67,7 +67,7 @@ body {
   color: var(--pure-white, #ffff);
   text-decoration: none;
 }
-.header nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,9 +97,9 @@ body {
 .header-menu-link:hover {
   background-color: var(--accent-light);
 }
-.main {
-  background-color: rgb(193, 223, 236);
-}
+// .main {
+//   background-color: rgb(193, 223, 236);
+// }
 .intro {
   padding: 60px 0;
 }
@@ -193,15 +193,19 @@ pre {
 footer {
   color: var(--pure-white);
   background-color: var(--accent);
-  margin: 0;
-  padding: 15 px 0;
 }
-.footer__inner {
+.footer-menu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 60px 0;
+  list-style: none;
 }
+// .footer__inner {
+//   margin: 0;
+//   padding: 0;
+// }
 
 .footer__link {
   color: var(--pure-white);

@@ -1,6 +1,6 @@
 :root {
   --accent: #8159b6;
-  --accent-light: #f1edf5;
+  --accent-light: #b7a5c9;
   --pure-white: #ffff;
 }
 
@@ -72,7 +72,7 @@ body {
   text-decoration: none;
 }
 
-.header nav {
+.header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,10 +113,6 @@ body {
 
 .header-menu-link:hover {
   background-color: var(--accent-light);
-}
-
-.main {
-  background-color: #c1dfec;
 }
 
 .intro {
@@ -246,21 +242,19 @@ pre {
 footer {
   color: var(--pure-white);
   background-color: var(--accent);
-  margin: 0;
-  padding: 15 px 0;
 }
 
-.footer__inner {
+.footer-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 15px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 60px 0;
+  list-style: none;
 }
 
 .footer__link {
