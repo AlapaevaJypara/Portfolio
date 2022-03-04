@@ -1,6 +1,6 @@
 :root {
   --accent: #8159b6;
-  --accent-light: #f1edf5;
+  --accent-light: #b7a5c9;
   --pure-white: #ffff;
 }
 html {
@@ -97,9 +97,9 @@ body {
 .header-menu-link:hover {
   background-color: var(--accent-light);
 }
-.main {
-  background-color: rgb(193, 223, 236);
-}
+// .main {
+//   background-color: rgb(193, 223, 236);
+// }
 .intro {
   padding: 60px 0;
 }
@@ -191,16 +191,19 @@ pre {
   text-align: center;
 }
 footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
   color: var(--pure-white);
   background-color: var(--accent);
   margin: 0;
   padding: 15 px 0;
+  list-style: none;
+  text-align: center;
 }
 .footer__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
+  margin: 0;
+  padding: 60 px 0;
 }
 
 .footer__link {
