@@ -67,7 +67,7 @@ body {
   color: var(--pure-white, #ffff);
   text-decoration: none;
 }
-.header nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,20 +191,21 @@ pre {
   text-align: center;
 }
 footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
   color: var(--pure-white);
   background-color: var(--accent);
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   margin: 0;
-  padding: 15 px 0;
+  padding: 60px 0;
   list-style: none;
-  text-align: center;
 }
-.footer__inner {
-  margin: 0;
-  padding: 60 px 0;
-}
+// .footer__inner {
+//   margin: 0;
+//   padding: 0;
+// }
 
 .footer__link {
   color: var(--pure-white);
