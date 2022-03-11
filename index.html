@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/style.css" />
+=======
+    <link rel="stylesheet" href="css/style.min.css" />
+>>>>>>> b11a7d43dc6cbb07a7a54a363ff825ca461f64c3
   </head>
   <body>
     <header class="header">
@@ -15,112 +19,219 @@
           <a href="#" class="header-logo">Jypara Alapaeva</a>
           <ul class="header-menu">
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#home">Главная</a>
+              <a class="header-menu-link" href="#home">Home</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#contact">Контакты</a>
+              <a class="header-menu-link" href="#contact">Contacts</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#skills">Навыки</a>
+              <a class="header-menu-link" href="#skills">Skills</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#languages">Языки</a>
+              <a class="header-menu-link" href="#code">Code</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#code">Примеры кода</a>
+              <a class="header-menu-link" href="#education">Education</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <img src="img/myphoto.jpg" width="250" alt="my photo" />
-      <section id="about">
-        <h1 class="">Жыпара Алапаева</h1>
-        <h2>О себе</h2>
-        <p>
-          Моя любимая профессия — программист, я приложу все силы, чтобы её
-          успешно освоить. Способность к написанию программ напрямую зависит от
-          личного характера.Важнейшие качества программиста — скромность,
-          любопытство, профессиональная честность, творчество и дисциплина.
-          Чтобы стать отличным программистом, я постоянно стремлюсь к
-          самосовершенствованию.
-        </p>
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__left">
+              <img
+                class="intro__img"
+                src="img/myphoto.jpg"
+                width="250"
+                alt="my photo"
+              />
+            </div>
+            <div class="intro__right">
+              <h1>Jypara Alapaeva</h1>
+              <p><em>Student of JyldyzAcademy</em></p>
+              <p>
+                My favorite profession is a programmer, I will do my best to
+                master it successfully. Ability to write programs directly
+                depends on personal character. The most important qualities of a
+                programmer are modesty, curiosity, professional honesty,
+                creativity and discipline. To become a great programmer, I
+                constantly I strive for self-improvement.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <hr />
-      <section id="contacts">
-        <h3 class="contacts-item">Контакты</h3>
-        <ul class="menu">
-          <li>
-            <h4>Локация</h4>
-            <p>Кыргызстан.г.Бишкек</p>
-          </li>
-          <li>
-            <h4>Телефон</h4>
-            <a href="tel:+996702818451">0702 80 84 51</a>
-          </li>
-          <li>
-            <h4>Электронная почта</h4>
-            <a href="mailto:jypara.alapaeva.kk@gmail.com"
-              >jypara.alapaeva.kk@gmail.com</a
-            >
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <section id="education">
-        <h3 class="education">Образование</h3>
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <h3 id="contact" class="section__title">Contacts</h3>
 
-        Балыкчинский Социально-Экономический институт.Факультет:Бух.учет и
-        аудит.
+            <ul class="menu">
+              <li class="menu__item">
+                <h4>Location</h4>
+                <p>Kyrgyzstan.Bishkek</p>
+              </li>
+              <li class="menu__item">
+                <h4>Whatsapp</h4>
+                <a href="whatsapp://+996702818451">+996 702 818 451</a>
+              </li>
+              <li class="menu__item">
+                <h4>Email</h4>
+                <a href="mailto:jypara.alapaeva.kk@gmail.com"
+                  >jypara.alapaeva.kk@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <hr />
-      <section id="skills">
-        <h3 class="skills">Навыки</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git,CitHub</li>
-          <li>WordPress</li>
-          <li>Figma,Canva,CorelDraw</li>
-        </ul>
-      </section>
-      <hr />
-      <section id="languages">
-        <h3 class="lang">Языки</h3>
-        <ol>
-          <li>Английский язык-начинающий</li>
-          <li>Русский язык-свободно</li>
-          <li>Кыргызский язык-родной</li>
-        </ol>
-      </section>
-      <hr />
-      <section id="code">
-        <h3 class="example">Примеры кода</h3>
-        <pre>
-          <code>
-            &lt;section&gt;
-             &lt;h3&gt;Навыки&lt;/h3&gt;
-              &lt;ul&gt;
-                 &lt;li&gt;CSS&lt;/li&gt;
-                 &lt;li&gt;Git,CitHub&lt;/li&gt;
-                 &lt;li&gt;WordPress&lt;/li&gt;
-                 &lt;li&gt;Figma,Canva,CorelDraw&lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/section&gt;
 
-          </code>
-        </pre>
+      <section id="skills" class="skills section">
+        <div class="container">
+          <h3 class="section__title">Skills</h3>
+          <ul class="menu">
+            <li class="menu__item">HTML</li>
+            <li class="menu__item">CSS</li>
+            <li class="menu__item">SASS</li>
+            <li class="menu__item">Git</li>
+            <li class="menu__item">WordPress</li>
+            <li class="menu__item">Figma,Canva</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="code" class="code__example section">
+        <div class="container">
+          <h3 class="section__title">Code examples</h3>
+          <pre>
+            <code>
+              &lt;section&gt;
+               &lt;h3&gt;Навыки&lt;/h3&gt;
+                &lt;ul&gt;
+                   &lt;li&gt;CSS&lt;/li&gt;
+                   &lt;li&gt;Git,CitHub&lt;/li&gt;
+                   &lt;li&gt;WordPress&lt;/li&gt;
+                   &lt;li&gt;Figma,Canva,CorelDraw&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/section&gt;
+  
+            </code>
+          </pre>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h3 class="section__title portfolio__title">Portfolio</h3>
+          <ul>
+            <li>
+              <img class="portfolio__img" src="img/portfolio.jpg" alt="photo" />
+              <h4>Cards number</h4>
+              <a
+                href="https://alapaevajypara.github.io/Lesson3-String/"
+                target="_blank"
+                >View Project</a
+              >
+            </li>
+            <li>
+              <img class="portfolio__img" src="img/portfolio.jpg" alt="photo" />
+              <h4>Cards number</h4>
+              <a
+                href="https://alapaevajypara.github.io/Lesson3-String/"
+                target="_blank"
+                >View Project</a
+              >
+            </li>
+            <li>
+              <img class="portfolio__img" src="img/portfolio.jpg" alt="photo" />
+              <h4>Cards number</h4>
+              <a
+                href="https://alapaevajypara.github.io/Lesson3-String/"
+                target="_blank"
+                >View Project</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="education section">
+        <div class="container">
+          <div class="education__top">
+            <h3 class="section__title">Education</h3>
+            <ul class="menu">
+              <li class="menu__item">
+                Balykchy Socio-Economic
+                Institute.Faculty:Economic.Specialty:Accounting and audit.
+              </li>
+            </ul>
+          </div>
+          <div class="education__inner">
+            <div class="education__left">
+              <h3 class="section__title">Courses</h3>
+              <ul class="menu">
+                <li>
+                  Training center "Universal". Course: "Information Technology
+                  in accounting 1C: Accounting"
+                </li>
+                <li class="menu__item">
+                  LLC "Info-Tak Esep" Course: "Info-Accountant" (accounting in
+                  budgetary organizations)
+                </li>
+                <li class="menu__item">JyldyzAcademy. Front-end developer</li>
+              </ul>
+            </div>
+            <div class="education__rihgt">
+              <h3 class="section__title">Languages</h3>
+              <ul class="menu">
+                <li class="menu__item">English - Beginner</li>
+                <li class="menu__item">Russian - Fluent</li>
+                <li class="menu__item">Kyrgyz - Native</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <hr />
     <footer class="footer">
-      <p>
-        &copy;Jypara Alapaeva 2022г.
-        <a class="footer-link" href="https://linktr.ee/jyldyzacademy2020"
-          >JyldyzAcademy</a
-        >
-      </p>
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer-menu">
+            <li class="menu__item">&copy;Jypara Alapaeva. 2022г.</li>
+            <li class="menu__item">
+              <a class="footer__link" href="https://linktr.ee/jyldyzacademy2020"
+                >JyldyzAcademy</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="footer__link" href="https://www.instagram.com/"
+                >Instagram</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="footer__link" href="https://ok.ru/">OK</a>
+            </li>
+            <li class="menu__item">
+              <a
+                class="footer__link"
+                href="https://www.notion.so/jypara-alapaeva-kk-gmail-com-6f9eee5d690f4645b9954cbfdc6d7293"
+                >Notion</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="footer__link" href="https://github.com/">GitHub </a>
+            </li>
+            <li class="menu__item">
+              <a class="footer__link" href="https://codepen.io/your-work/">
+                CodePen
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
