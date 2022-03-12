@@ -10,26 +10,34 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header-nav">
-          <a href="#" class="header-logo">Jypara Alapaeva</a>
-          <ul class="header-menu">
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#home">Home</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#contact">Contacts</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#skills">Skills</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#code">Code</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#education">Education</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header__inner">
+          <div class="logo">
+            <a href="#" class="header__link">Jypara Alapaeva</a>
+          </div>
+
+          <button class="menu-toggler">
+            <img src="img/icons8-меню-50.png" alt="menuburger" />
+          </button>
+          <nav class="header__nav">
+            <ul class="menu menu-show">
+              <li class="menu__item">
+                <a class="menu__link" href="#home">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contact">Contacts</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#skills">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#code">Code</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#education">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -157,8 +165,8 @@
         <div class="container">
           <div class="education__top">
             <h3 class="section__title">Education</h3>
-            <ul class="menu">
-              <li class="menu__item">
+            <ul>
+              <li>
                 Balykchy Socio-Economic
                 Institute.Faculty:Economic.Specialty:Accounting and audit.
               </li>
@@ -167,24 +175,24 @@
           <div class="education__inner">
             <div class="education__left">
               <h3 class="section__title">Courses</h3>
-              <ul class="menu">
+              <ul>
                 <li>
                   Training center "Universal". Course: "Information Technology
                   in accounting 1C: Accounting"
                 </li>
-                <li class="menu__item">
+                <li>
                   LLC "Info-Tak Esep" Course: "Info-Accountant" (accounting in
                   budgetary organizations)
                 </li>
-                <li class="menu__item">JyldyzAcademy. Front-end developer</li>
+                <li>JyldyzAcademy. Front-end developer</li>
               </ul>
             </div>
             <div class="education__rihgt">
               <h3 class="section__title">Languages</h3>
-              <ul class="menu">
-                <li class="menu__item">English - Beginner</li>
-                <li class="menu__item">Russian - Fluent</li>
-                <li class="menu__item">Kyrgyz - Native</li>
+              <ul>
+                <li>English - Beginner</li>
+                <li>Russian - Fluent</li>
+                <li>Kyrgyz - Native</li>
               </ul>
             </div>
           </div>
@@ -228,5 +236,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
