@@ -127,41 +127,6 @@ body {
   background-color: var(--accent);
 }
 
-// .header a {
-//   color: var(--pure-white, #ffff);
-//   text-decoration: none;
-// }
-// .header-nav {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   padding: 15px 0;
-// }
-// .header-logo {
-//   display: inline-block;
-//   width: 20%;
-//   font-size: 20px;
-//   font-weight: 800;
-//   letter-spacing: 1px;
-// }
-// .header-menu {
-//   display: flex;
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-// }
-
-// .header-menu-item {
-//   float: right;
-// }
-// .header-menu-link {
-//   padding: 15px 15px;
-//   text-transform: uppercase;
-// }
-// .header-menu-link:hover {
-//   background-color: var(--accent-light);
-// }
-
 .menu__toggler {
   display: none;
 }
@@ -237,7 +202,6 @@ pre {
 }
 
 .portfolio {
-  // background-image: url("../img/Portfolio-blog.jpg");
   padding: 60px 0;
   background-color: var(--accent);
 }
@@ -312,21 +276,11 @@ footer {
   padding: 60px 0;
   list-style: none;
 }
-// .footer__inner {
-//   margin: 0;
-//   padding: 0;
-// }
-
 .footer__link {
   color: var(--pure-white);
 }
 
-@media (max-width: 576px) {
-  // .header__menu {
-  //   display: flex;
-  //   justify-content: center;
-  //   list-style: none;
-
+@media (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -362,12 +316,22 @@ footer {
   .intro__right {
     width: 50%;
   }
+  .contacts__inner ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   .code__example {
     text-align: left;
   }
   .code__example pre {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    width: 90%;
+    font-size: 1em;
+    margin: 0 auto;
+    border-radius: 8px;
   }
   .portfolio ul {
     display: flex;
@@ -375,10 +339,17 @@ footer {
     flex-wrap: wrap;
     gap: 30px;
   }
+  .education__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
   // align-items: center;
-  .footer__menu {
+  .footer-menu {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.2em;
+    text-align: center;
   }
 }
